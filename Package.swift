@@ -14,7 +14,7 @@ let package = Package(
         .library(name: "CocoaMQTT", targets: [ "CocoaMQTT" ]),
     ],
     dependencies: [
-        .package(url: "https://github.com/robbiehanson/CocoaAsyncSocket", from: "7.6.4"),
+        .package(url: "https://github.com/nrohwedder/CocoaAsyncSocket", .branch("release/7_6_4_SPM")),
     ],
     targets: [
         .target(name: "CocoaMQTT",
